@@ -22,6 +22,9 @@ function setup() {
   a=height;
   circles.push(width/2)
   ground=new Ground(690,220,200,10);
+	stroke(10);
+        fill("green")
+
   box1=new Box(630,200,30,40);
   box2=new Box(660,200,30,40);
   box3=new Box(690,200,30,40);
